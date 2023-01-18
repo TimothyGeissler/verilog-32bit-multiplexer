@@ -7,5 +7,5 @@ input [31:0] a, b;
 output [31:0] out;
 
 //output a if select = true, b if select = false
-assign out = select ? a : b;
+assign out = select ? b : a;
 endmodule
